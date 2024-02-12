@@ -1,4 +1,4 @@
-# Loan Application Analysis
+# Loan Performance Analysis
 
 ### Project Overview
 
@@ -26,19 +26,15 @@ EDA involved exploring the Loan data to answer key questions, such as:
 2. What is the distribution of loan applications by continent?
 3. Which country had the highest rejection rate?
 4. What is the monthly trend of loan applications by loan amount since inception?
-6. What is the average age of the special applicants?
-7. What are the highest and lowest loan application amounts of the special 
-   applicants?
-8. What is the distribution of loan completion by continent?
-9. Which regions had the highest applications by loan amount for each continent?
-10. What was the average turnaround time in days for completed loan applications by continent in 2021 and 2022 respectively?
-11. "Using the following age grouping, which age group recorded the highest number of applications?
+5. What is the average age of the special applicants?
+6. What is the distribution of loan completion by continent?
+7. Which regions had the highest applications by loan amount for each continent?
+8. "Using the following age grouping, which age group recorded the highest number of applications?
 - 20-30 - Young professionals
 - 31-40 - Managers
 - 41-50 - Executive Managers
 - 51-60 - C-Suite"
-12. If the energy and sports sectors merged in 2022, which continent would account for the highest market share in the newly formed  sector?
-13. Which country(or countries) had the highest application by loan amount and by number of applicants?
+9. Which country(or countries) had the highest application by loan amount and by number of applicants?
   
 ### Data Analysis
 
@@ -234,6 +230,30 @@ Select Top 1 Country,
 The Analysis results are summarized as follows:
 1. the pull-through rate in 2021 and 2022 respectively was 56% for 2021 and 78% for 2022
 2. Distribution of loan applications by continent		
-![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/599a4a91-8a54-4f49-a9c4-13074955b2ba)
-![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/936bfc0a-52fd-4452-af98-638dcf9da5c9)
+![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/109554e1-ffd1-4ff4-8dcf-0544cd4933d5)
 
+3. The country with the highest rejection rate is 
+    - The SyrianArab Republic
+
+4. Monthly trend of loan applications by loan amount since inception
+    - ![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/c6d2c217-cee9-406e-8cad-28895a62ccbb)
+
+5. The average age of the special applicants  
+    - 38.52
+6. The distribution of loan completion by continent
+   - ![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/a46229da-21ff-4b92-b20d-1b430daca879)
+
+7. Regions with the highest applications by loan amount for each continent
+    - Europe with $44,028,469.09
+8. The age group with the highest number of applications Number of Application
+  - 20-30 - Young professionals
+  - 31-40 - Managers
+  - 41-50 - Executive Managers
+  - 51-60 - C-Suite"
+  - ![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/28bb3e8d-4b55-4f25-8473-cd027184a622)
+
+9. Countries with the highest applications by loan amount and by number of applicants		
+    - By Number of Applications - Côted’Ivoire
+    - By Loan Amount - Andorra
+
+  
