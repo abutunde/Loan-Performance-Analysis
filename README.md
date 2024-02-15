@@ -1,5 +1,16 @@
 # Loan Performance Analysis
 
+## Table of Content
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [The SQL Query for the Analysis](#the-sql-query-for-the-analysis)
+- [Results and Findings](#results-and-findings)
+- [Recommendations](#recommendations)
+- [Reference](#references)
+
 ### Project Overview
 
 This analysis aims to provide valuable insights into a loan application's performance for a loan company for the years 2021 and 2022, By analyzing various aspects of the loan data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's loan application performance.
@@ -10,11 +21,13 @@ Loan Data: The primary dataset used for this analysis is the 'QWE_Loan_Data' fil
 
 ### Tools
 - Microsoft Excel
-    -  Data Cleaning [Download here](https://onedrive.live.com/edit?id=340C72DA9142E4B0!669&resid=340C72DA9142E4B0!669&ithint=file%2Cxlsx&nav=MTVfezhENTQ5QTE2LUJDMkQtNDkxRS05Q0FCLTVBQzYwMTc4MjRDN30&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBckRrUXBIYWNndzBoUjFBMFNqTUlPOTZfZXZtP2U9UlJnYnNmJm5hdj1NVFZmZXpoRU5UUTVRVEUyTFVKRE1rUXRORGt4UlMwNVEwRkNMVFZCUXpZd01UYzRNalJETjMw&migratedtospo=true&wdo=2&cid=340c72da9142e4b0)
-- SQL -Data Analysis
-- Power Bi - Creating Report View
+    -  Data Cleaning [Click here](https://onedrive.live.com/edit?id=340C72DA9142E4B0!669&resid=340C72DA9142E4B0!669&ithint=file%2Cxlsx&nav=MTVfezhENTQ5QTE2LUJDMkQtNDkxRS05Q0FCLTVBQzYwMTc4MjRDN30&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBckRrUXBIYWNndzBoUjFBMFNqTUlPOTZfZXZtP2U9UlJnYnNmJm5hdj1NVFZmZXpoRU5UUTVRVEUyTFVKRE1rUXRORGt4UlMwNVEwRkNMVFZCUXpZd01UYzRNalJETjMw&migratedtospo=true&wdo=2&cid=340c72da9142e4b0)
 
-### Data Cleaning/Preparation
+- SQL -Data Analysis
+
+- Power Bi - Creating Report (Dashboard)
+
+### Data Cleaning
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and Inspection
 2. Sorting and Handling Missing Values
@@ -36,23 +49,7 @@ EDA involved exploring the Loan data to answer key questions, such as:
 - 51-60 - C-Suite"
 9. Which country(or countries) had the highest application by loan amount and by number of applicants?
   
-### Data Analysis
-
-The features, code, and functions used for Data Analysis on SQL (Structured Query Language)
-Functions used include
-~~~
-Select
-Cast
-Where
-Order by
-Min, Max
-Round
-Groupby
-CTE
-Having
-Date and Time
-~~~
-The Query/Code for the Analysis -
+### The SQL Query for the Analysis
 ```SQL
  ---QST 1
 Select Round(
@@ -226,9 +223,9 @@ Select Top 1 Country,
  group by Country
  Order by Highest_Application_Rate desc
 ```
-### Result and Findings
+### Results and Findings
 The Analysis results are summarized as follows:
-1. the pull-through rate in 2021 and 2022 respectively was 56% for 2021 and 78% for 2022
+1. The pull-through rate in 2021 and 2022 respectively was 56% for 2021 and 78% for 2022
 2. Distribution of loan applications by continent		
 ![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/109554e1-ffd1-4ff4-8dcf-0544cd4933d5)
 
@@ -245,7 +242,7 @@ The Analysis results are summarized as follows:
 
 7. Regions with the highest applications by loan amount for each continent
     - Europe with $44,028,469.09
-8. The age group with the highest number of applications Number of Application
+8. The age group with the highest number of applications
   - 20-30 - Young professionals
   - 31-40 - Managers
   - 41-50 - Executive Managers
@@ -255,6 +252,38 @@ The Analysis results are summarized as follows:
 9. Countries with the highest applications by loan amount and by number of applicants		
     - By Number of Applications - Côted’Ivoire
     - By Loan Amount - Andorra
-### Recommendation
+   
+### Recommendations
+Based on the analysis results, here are some recommendations for the loan company:
+
+1. #### Enhance Pull-Through Rate:
+   - Investigate the factors contributing to the increased pull-through rate in 2022 compared to 2021.
+   - Identify the successful strategies or changes made during 2022 and consider implementing similar practices to improve the pull-through rate further.
+2. #### Focus on Africa:
+   - Given the high distribution of loan applications from Africa, consider tailoring marketing and outreach efforts to this region.
+
+3. Address Rejection Rates in Syria:
+   - Investigate the reasons behind the high rejection rate in The Syrian Arab Republic.
+   - Analyze whether specific risk factors or other issues are contributing to the higher rejection rate and implement strategies to mitigate these concerns.
+4. #### Optimize Loan Application Trends:
+   - Capitalize on the observed monthly trend of rising loan applications from June through August.
+   - Consider launching targeted marketing campaigns or promotions during these months to capitalize on the increased demand.
+5. #### Maximize Completion Rates in Africa:
+   - Leverage the high distribution of completed loans in Africa by continuing to provide excellent customer service and support to clients in this region.
+6. #### Tailor Strategies for Specific Countries:
+   - Focus attention on Côte d'Ivoire for the highest number of applications and Andorra for the highest loan amount.
+7. #### Targeted Engagement Based on Age Groups:
+   - Tailor communication and marketing strategies based on the age group demographics.
+   - Consider creating specific loan products or features that appeal to the identified age groups, such as professional development loans for young professionals and executive perks for C-Suite individuals.
+8. #### Continuous Monitoring and Adaptation:
+   - Regularly monitor trends and performance metrics to identify changing patterns in loan applications.
+   - Be flexible and adaptive, adjusting strategies based on ongoing data analysis to meet evolving customer needs and market dynamics.
+   
+These recommendations aim to improve overall performance, address specific challenges, and capitalize on identified opportunities in different regions and demographic groups. Regular monitoring and adaptability are emphasized for sustained success.
+
+### References
+1. Emmanuel Onyeachor (Data Analyst at Henley Business School)
+   - [Linkedin](https://linkedin.com/in/emmanuel-onyeachor)
+2. Datamine Analysis
 
   
