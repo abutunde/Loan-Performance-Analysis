@@ -255,5 +255,6 @@ The Analysis results are summarized as follows:
 9. Countries with the highest applications by loan amount and by number of applicants		
     - By Number of Applications - Côted’Ivoire
     - By Loan Amount - Andorra
+### Recommendation
 
   
