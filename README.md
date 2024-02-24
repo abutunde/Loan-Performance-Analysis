@@ -20,7 +20,7 @@ This analysis aims to provide valuable insights into a loan application's perfor
 
 ### Data Sources
 
-Loan Data: The primary dataset used for this analysis is the 'QWE_Loan_Data' file, containing detailed information about each loan application by the company.
+Loan Data: The primary dataset used for this analysis is the 'QWE_RAW_DATA' file, containing detailed information about each loan application by the company.
 
 ### Tools
 - Microsoft Excel
