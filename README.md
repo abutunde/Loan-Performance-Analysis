@@ -12,7 +12,7 @@
 - [Reference](#references)
 
 ### Project Overview
-
+----
 This analysis aims to provide valuable insights into a loan application's performance for a loan company for the years 2021 and 2022, By analyzing various aspects of the loan data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's loan application performance.
 
 
@@ -288,5 +288,4 @@ These recommendations aim to improve overall performance, address specific chall
 1. Emmanuel Onyeachor (Data Analyst at Henley Business School)
    - [Linkedin](https://linkedin.com/in/emmanuel-onyeachor)
 2. Datamine Analysis
-
-  
+   💻🖱️
