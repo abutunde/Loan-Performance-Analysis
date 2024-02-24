@@ -15,6 +15,9 @@
 
 This analysis aims to provide valuable insights into a loan application's performance for a loan company for the years 2021 and 2022, By analyzing various aspects of the loan data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's loan application performance.
 
+
+![QWE Loan Dashboard](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/0135bffe-56ed-4627-a013-e7f7c76ffcae)
+
 ### Data Sources
 
 Loan Data: The primary dataset used for this analysis is the 'QWE_Loan_Data' file, containing detailed information about each loan application by the company.
@@ -25,7 +28,7 @@ Loan Data: The primary dataset used for this analysis is the 'QWE_Loan_Data' fil
 
 - SQL -Data Analysis
 
-- Power Bi - Creating Report (Dashboard)
+- Power Bi - Creating Report Dashboard
 
 ### Data Cleaning
 In the initial data preparation phase, I performed the following tasks:
