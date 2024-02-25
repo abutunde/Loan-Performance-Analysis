@@ -31,7 +31,8 @@ Loan Data: The primary dataset used for this analysis is the 'QWE_RAW_DATA' file
 - Power Bi - Creating Report Dashboard
 
 ### Data Cleaning
-In the initial data preparation phase, I performed the following tasks:
+In the initial data preparation phase, I performed the following tasks using Microsoft Excel:
+-  Cleaned Data [Click here](https://onedrive.live.com/edit?id=340C72DA9142E4B0!669&resid=340C72DA9142E4B0!669&ithint=file%2Cxlsx&nav=MTVfezhENTQ5QTE2LUJDMkQtNDkxRS05Q0FCLTVBQzYwMTc4MjRDN30&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBckRrUXBIYWNndzBoUjFBMFNqTUlPOTZfZXZtP2U9UlJnYnNmJm5hdj1NVFZmZXpoRU5UUTVRVEUyTFVKRE1rUXRORGt4UlMwNVEwRkNMVFZCUXpZd01UYzRNalJETjMw&migratedtospo=true&wdo=2&cid=340c72da9142e4b0)
 1. Data loading and Inspection
 2. Sorting and Handling Missing Values
 3. Data Cleaning and Formatting
