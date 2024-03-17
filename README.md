@@ -251,7 +251,8 @@ The Analysis results are summarized as follows:
   - 31-40 - Managers
   - 41-50 - Executive Managers
   - 51-60 - C-Suite"
-  - ![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/28bb3e8d-4b55-4f25-8473-cd027184a622)
+  - ![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/5e330604-b63b-41e9-8603-73c688dceced)
+
 
 9. Countries with the highest applications by loan amount and by number of applicants		
     - By Number of Applications - Côted’Ivoire
@@ -286,7 +287,7 @@ Based on the analysis results, here are some recommendations for the loan compan
 These recommendations aim to improve overall performance, address specific challenges, and capitalize on identified opportunities in different regions and demographic groups. Regular monitoring and adaptability are emphasized for sustained success.
 
 ### References
-1. Emmanuel Onyeachor (Data Analyst at Henley Business School)
+1. Emmanuel Onyeachor (Data Analyst at Henley Business School)- Data Source
    - [Linkedin](https://linkedin.com/in/emmanuel-onyeachor)
 2. Datamine Analysis
    💻🖱️
