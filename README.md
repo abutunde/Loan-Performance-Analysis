@@ -15,8 +15,7 @@
 ----
 This analysis aims to provide valuable insights into a loan application's performance for a loan company for the years 2021 and 2022, By analyzing various aspects of the loan data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's loan application performance.
 
-
-![QWE Loan Dashboard](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/0135bffe-56ed-4627-a013-e7f7c76ffcae)
+![image](https://github.com/abutunde/Loan-Performance-Analysis/assets/113314795/52910140-9dae-4dfe-b405-5f892c4a7ca1)
 
 ### Data Sources
 
