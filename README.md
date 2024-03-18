@@ -22,13 +22,29 @@ This analysis aims to provide valuable insights into a loan application's perfor
 Loan Data: The primary dataset used for this analysis is the 'QWE_RAW_DATA' file, containing detailed information about each loan application by the company.
 
 ### Tools
-- Microsoft Excel
+###  Microsoft Excel
+- #### For the Cleaning, Sorting, and Formatting on Microsoft Excel, I used the following functions:
+1. Match Function
+2. Index Function
+3. Vlookup
+4. Date Function
+5. Concatenate
+6. IF, CountIF, CountA, CountIFS
+7. Average, Sumif, Max, and Min
+   
     -  Data Cleaning [Click here](https://onedrive.live.com/edit?id=340C72DA9142E4B0!669&resid=340C72DA9142E4B0!669&ithint=file%2Cxlsx&nav=MTVfezhENTQ5QTE2LUJDMkQtNDkxRS05Q0FCLTVBQzYwMTc4MjRDN30&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBckRrUXBIYWNndzBoUjFBMFNqTUlPOTZfZXZtP2U9UlJnYnNmJm5hdj1NVFZmZXpoRU5UUTVRVEUyTFVKRE1rUXRORGt4UlMwNVEwRkNMVFZCUXpZd01UYzRNalJETjMw&migratedtospo=true&wdo=2&cid=340c72da9142e4b0)
 
-- SQL -Data Analysis
+### SQL - Data Analysis 
+Reference - [The SQL Query for the Analysis](#the-sql-query-for-the-analysis)
 
-- Power Bi - Creating Report Dashboard
-
+### Power BI
+#### The Power BI was used for the following:
+- Creation of Project report dashboard
+- Dax formula for calculation of :
+1. Pull-through rate
+2. Average of Age
+3. Turn Around Time
+   
 ### Data Cleaning
 In the initial data preparation phase, I performed the following tasks using Microsoft Excel:
 -  Cleaned Data [Click here](https://onedrive.live.com/edit?id=340C72DA9142E4B0!669&resid=340C72DA9142E4B0!669&ithint=file%2Cxlsx&nav=MTVfezhENTQ5QTE2LUJDMkQtNDkxRS05Q0FCLTVBQzYwMTc4MjRDN30&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBckRrUXBIYWNndzBoUjFBMFNqTUlPOTZfZXZtP2U9UlJnYnNmJm5hdj1NVFZmZXpoRU5UUTVRVEUyTFVKRE1rUXRORGt4UlMwNVEwRkNMVFZCUXpZd01UYzRNalJETjMw&migratedtospo=true&wdo=2&cid=340c72da9142e4b0)
